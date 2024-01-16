@@ -29,7 +29,7 @@ The material in this repository is intended as documentation of the process by w
 
 ## Testing
 
-Arduino based total water depth logger has been tested on 6-month deployment against a Solinst Level Logger Junior 5 to assess accuracy and observe any technical difficulties. More information is found in the citation information, but data from the testing can be accessed [here](https://docs.google.com/spreadsheets/d/1b9mkM1EqoMOuJWOz1teIzVWMdMKTzaIR/edit?usp=sharing&ouid=106105173113638662095&rtpof=true&sd=true)
+Arduino based total water depth logger has been tested on 6-month deployment against a Solinst Level Logger Junior 5 to assess accuracy and observe any technical difficulties. More information is found in the citation information, but data from the testing can be accessed [here](https://docs.google.com/spreadsheets/d/1b9mkM1EqoMOuJWOz1teIzVWMdMKTzaIR/edit?usp=sharing&ouid=106105173113638662095&rtpof=true&sd=true).
 
 ## License
 
