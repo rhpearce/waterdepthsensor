@@ -26,10 +26,17 @@ A brief overview of the instructions is given below, but more detailed instructi
 
 ## Disclaimer
 The material in this repository is intended as documentation of the process by which the King's College London environmental monitoring team build our open-source loggers. Though we take care to ensure that the pages are accurate as of the date of publication, Arduino software, libraries, electronic components and interface devices are all subject to variation, change with time, and all introduce the potential for risk. The authors take no responsibility for the consequences of error or for any loss, damage or injury suffered by users or their property as a result of any of the information published on any of these pages, and such information does not form any basis of a contract with readers or users of it. The audience should verify any information provided and only proceed if they have an adequate understanding of electronics and electronics safety.
+
+## Testing
+
+Arduino based total water depth logger has been tested on 6-month deployment against a Solinst Level Logger Junior 5 to assess accuracy and observe any technical difficulties. More information is found in the citation information, but data from the testing can be accessed [here](https://docs.google.com/spreadsheets/d/1b9mkM1EqoMOuJWOz1teIzVWMdMKTzaIR/edit?usp=sharing&ouid=106105173113638662095&rtpof=true&sd=true)
+
 ## License
 
 This work is licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) - any use of any material here requires attribution.
 
 Citation Information: to be updated.
+
+
 
 
