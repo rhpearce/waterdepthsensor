@@ -1,8 +1,8 @@
-#include <SPI.h>
-#include "ds3234.h"
-#include <avr/sleep.h>
-#include <SdFat.h>
-#include <avr/power.h>
+#include <SPI.h>     // SPI library
+#include "ds3234.h"  // RTC library
+#include <avr/sleep.h> // sleep library
+#include <SdFat.h>  // SD card libary
+#include <avr/power.h> 
 #include <Wire.h>
 
 //pin assignments
@@ -10,7 +10,7 @@ const int CS = 9; //
 int ss = 10;
 int T_power = 4;
 int V5_cntrl = 8;
-// A0=TDS,A1=turb,A2=pressure,A3=temperature
+// A0=Temperature,A1=pressure
 
 //Create objects
 SdFat sd;
@@ -100,7 +100,7 @@ void loop() {
   // read pressure and calculate m water
   P_dn = analogRead(A1);
   float P_v=(float)P_dn*3.3/1024.0*(4.7+10.0)/10.0;
- float m_W = 113.04*P_v - 17.67;
+ float m_W = 113.04*P_v - 17.67; // Example data adjustment following logger calibration
 
 
   digitalWrite(V5_cntrl,LOW);
@@ -123,11 +123,13 @@ void loop() {
        dataString += ",";
       dataString += t.min;
        dataString += ",";
-       //dataString += P_v;
-      // dataString += ",";
-       dataString += T;
+       dataString += P_v;
        dataString += ",";
        dataString += m_W;
+       dataString += ",";
+       dataString += T;
+        dataString += ",";
+       dataString += T_volt;
 
        while (!sd.begin(CS,SPI_HALF_SPEED)) {}
        file.open(newfile, O_WRITE | O_APPEND); //Opens the file
