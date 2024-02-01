@@ -8,6 +8,7 @@ Design, instructions, code, and information for a low-cost, Arduino-based, real-
 
 - [@rhpearce](https://github.com/rhpearce)
 - [@KCLGeography](https://github.com/KCLGeography)
+- [@DrKrisChan](https://github.com/DrKrisChan)
 
 
 
