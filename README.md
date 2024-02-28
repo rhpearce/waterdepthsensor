@@ -13,7 +13,7 @@ Design, instructions, code, and information for a low-cost, Arduino-based, real-
 
 
 ## Instructions
-A brief overview of the instructions is given below, but more detailed instructions can be found [here](https://drive.google.com/file/d/1HNqiERP32G9E8vRf_0rl5kWMbjWXEGlC/view?usp=sharing).
+A brief overview of the instructions is given below, but more detailed instructions can be found [here] (https://drive.google.com/file/d/1HNqiERP32G9E8vRf_0rl5kWMbjWXEGlC/view?usp=sharing). As of **28/2/24** wiring has been updated, use Fritzing diagram below for most recent wiring. Follow instruction manual for logger housing construction and calibration help. 
 
 - Ensure you have read and understand the disclaimer and license associated with this guide.
 - Acquire the necessary parts listed in the [Parts List](https://docs.google.com/spreadsheets/d/1xHk34M-YiePO2RZdtJb8Tk1eWIesMuvv/edit?usp=sharing&ouid=106105173113638662095&rtpof=true&sd=true). The PCB can be obtained from [@KCLGeography](https://github.com/KCLGeography) [EnvPCBdesigns](https://github.com/KCLGeography/EnvPCBdesigns).
